@@ -72,7 +72,7 @@
                             </ol>
                             <div class="carousel-inner " role="listbox" style="border-radius: 20px;">
                                 <div class="carousel-item active">
-                                    <img class="d-block img-fluid" src="<?=BASE_URL;?>assets/img/slider1.png" alt="First slide">
+                                    <img class="d-block img-fluid" src="<?=BASE_URL;?>assets/img/slider2.jpg" alt="First slide">
                                 </div>
                             </div>
                             <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
