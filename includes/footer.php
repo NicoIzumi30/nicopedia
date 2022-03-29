@@ -1,5 +1,6 @@
+</div>
 <div class="home-subscribe-container">
-    <div class="container">
+    <div class="container-fluid">
       <div class="row">
         <div class="col-12">
           <div class="caption-group text-center text-white">
@@ -9,10 +10,10 @@
               </div>
           </div>
           <div class="d-flex justify-content-center subscribe-social-medias mt-4">
-                 <a class="pr-5" rel="noreferrer" aria-label=" Instagram Social Media link" href="https://www.instagram.com/Taka_pedia" target="_blank">
+                 <a class="pr-5" rel="noreferrer" aria-label=" Instagram Social Media link" href="https://www.instagram.com/nico_izumi_" target="_blank">
                 <img alt="" src="<?=BASE_URL;?>assets/img/svg/instagram-w.svg">
               </a>
-               <a rel="noreferrer" aria-label="tiktok Social Media link" href="https://www.tiktok.com/@takaa__" target="_blank">
+               <a rel="noreferrer" aria-label="tiktok Social Media link" href="https://www.tiktok.com/@nico.izumi30" target="_blank">
                 <img alt="" src="<?=BASE_URL;?>assets/img/svg/tiktok-w.svg" width="36px">
               </a>
                 
@@ -46,16 +47,10 @@
                     text-align: start;
                 ">Kontak Kami</div>
                   </div>
-                    <div class="payment-channels-track-container">
-                      <div class="payment-channels-track marquee">
-                        <div class="footer-pc-marquee">
                             
                             
-                          <p class="pl-3"><i class="fas fa-envelope"></i></b> <a class="home-cs-card" href="mailto:store@takapedia.com" target="_blank" rel="noreferrer"style="color: white;">Email</a></p>
-                            <p class="pl-3"><i class="fab fa-whatsapp"></i></b> <a href="https://wa.me/6281234555525" style="color: white;">Chat WhatsApp</a></p>
-                        </div>
-                      </div>
-                  </div>
+                          <p class="pl-3"><i class="fas fa-envelope"></i></b> <a class="home-cs-card" href="mailto:nicoxcode30@gmail.com" target="_blank" rel="noreferrer"style="color: white;">Email</a></p>
+                            <p class="pl-3"><i class="fab fa-whatsapp"></i></b> <a href="https://wa.me/62859126462972" style="color: white;">Chat WhatsApp</a></p>
                 </div>
                 </div>
             </div>
@@ -63,9 +58,7 @@
     </div>
 
 
-    <div class="footer-copyright text-center py-3 foterr"><p> ©Copyright 2021 Cv
-        <a href="<?=BASE_URL;?>"> nicopedia</a> • <a href="<?=BASE_URL;?>"> Terms of
-            Service</a></p>
+    <div class="footer-copyright text-center py-3 foterr"><p> ©Copyright NicoIzumi 2022 </p>
             
     </div>
     <script src="<?=BASE_URL;?>assets/vendor/jquery/jquery.min.js"></script>

@@ -8,7 +8,12 @@ body {background-color: #32323e !important;
 }
 .card {
     border-radius: 0;
+	background-color: #272730 !important;
     border: 2px solid #cf760b;
+}
+.card a{
+	text-decoration: none;
+	
 }
 /*.form-search-c {
 	border: 2px solid #6479b1;
@@ -74,6 +79,10 @@ text-shadow: 1px 1px 1px #000;
 	  transform: scale(1.1) !important;
 	  z-index: 2;
 
+
+  }
+  .shopeee {
+	  color: #ee4d2d;;
   }
   
   

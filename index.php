@@ -20,11 +20,11 @@
 
  ?>
         <div class="row d-flex justify-content-center">
-            <div class="col-lg-10">
+            <div class="col-md-11">
                 <div class="row d-flex justify-content-end">
-                <div class="col-lg-8" style="margin-top: 35px;">
+                <div class="col-md-8" style="margin-top: 35px;">
                              <div class="row">
-                                 <div class="col-lg-4">
+                                 <div class="col-md-4">
                              <div class="dropdown">
                             <button class="btn btn-warning dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                 Game Category
@@ -49,7 +49,7 @@
                     <div class="col-lg-4">
                         <form action="?s=" class="mt-3">
                                 <div class="row">
-                                    <div class="col-md-10 mt-3 justify-content-end">
+                                    <div class="col-md-10 sm-8 mt-3 justify-content-end">
                                     <div class="form-group">
                                         <input class="form-control" type="search" value="<?php if(isset($_GET['s'])) {echo $_GET['s'];} ?>" name="s" placeholder=" Masukkan Keywoard "   style="border-radius: 9999px;">
                                     </div>            
@@ -61,6 +61,8 @@
                             </form>
                          </div>
                     </div>
+            </div>
+                    <div class="col-lg-12">
                     <div class="row">
                         <div class="col-lg-12">     
                         <div class="container">
@@ -92,16 +94,16 @@
                          do{
                      ?>
                     <div class="col-lg-4 col-md-4 sm-6 mb-3 mt-3">
-                        <div class="card h-100 ho" style="border-radius: 20px;">
-                            <a href="tampil.php?id=<?=$data['id_akun'];?>" style="padding: 5px"><img class="card-img-top" src="<?=BASE_URL;?>assets/akun/<?= $data['gambar_akun'];?>"></a>
+                        <div class="card ho" style="border-radius: 20px;">
+                            <!-- <a href="tampil.php?id=<?=$data['id_akun'];?>" style="padding: 5px; max-width: 150px; border-radius: 5px; "><img class="card-img-top" style="float:left;" src="<?=BASE_URL;?>assets/akun/<?= $data['gambar_akun'];?>"></a> -->
+
                             <div class="card-body">
-                                <h4 class="card-title">
+                            <h5 class="card-title">
                                   <a style="color: #cf7609;" href="tampil.php?id=<?=$data['id_akun'];?>"><?=$data['nama_akun'];?></a>
-                                </h4>
-                                <h5>Rp. <?=number_format($data['harga_akun']);?></h5>
-                            </div>
-                            <div class="card-footer text-center btn-beli">
-                                <h4>Nama Kategori</h4>
+                            </h5>
+                                <p class=" shopeee">Rp. <?=number_format($data['harga_akun']);?></p>
+                                <small class="text-warning">&#9733; &#9733; &#9733; &#9733; &#9734;</small>
+                                <p class="text-right"><a href="tampil.php?id=<?=$data['id_akun'];?>">Detail..</a></p>
                             </div>
                         </div>
                     </div>
@@ -116,5 +118,6 @@
                 </div>
             </div>
             </div>
+
         <!-- </div> -->
   <?php require "includes/footer.php"; ?> 
