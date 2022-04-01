@@ -239,7 +239,6 @@ hr {
 .noresult{
 	margin: auto;
 }
-
 .qrcode {
 	width: 300px;
 	height: 300px;
@@ -248,17 +247,8 @@ hr {
 .bputih  {
 	background-color: #272730;
 }
-.test1 {
-	background-color: #272730;
-} 
-.test2 {
-	background-color: #d3efff;
-}
-.test3 {
-	background-color: #fcffc9;
-}
-.test4 {
-	background-color: #ffdcdc;
+.bgnav {
+	background-image: url(../img/bgnav.jpg);
 }
 
 
@@ -273,6 +263,10 @@ hr {
 	max-width: 300px;
 	max-height: 300px;
 	margin-left: 60px;
+}
+.mapsa {
+	width: 330px;
+	height: 300px;
 }
 .detail-akun img{
 
@@ -296,6 +290,10 @@ hr {
 		max-width: 260px;
 		max-height: 290px;
 		margin-left: 50px;
+	}
+	.mapsa {
+		width: 400px;
+		height: 375px;
 	}
 }
 

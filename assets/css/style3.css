@@ -58,7 +58,7 @@ body {
     color: white;
     background-color: rgba(55, 10, 114, .5);
     margin-bottom: 15px;
-    transition: ,5s;
+    transition: 5s;
 }
 
 .username::placeholder,
@@ -95,4 +95,10 @@ a {
     text-decoration: none;
     color: rgba(55, 10, 114, 1);
     margin-top: 10px;
+}
+.bgnav {
+    background-image: url(../img/bgnav1.jpg);
+}
+.sideb {
+    background-image: url(../img/side.jpg);
 }

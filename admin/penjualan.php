@@ -43,9 +43,10 @@ require "includes/header.php"
                                     $data = mysqli_fetch_assoc($query);
                                     if (mysqli_num_rows($query) > 0) {
                                     $no =1;
+                                    $total = 0;
 
                                     do{
-                                         $totall += $data['qty_penjualan'] * $data["harga_akun"];
+                                         $total += $data['qty_penjualan'] * $data["harga_akun"];
                                     ?>
                                         <tr>
                                             <td><?=$no++; ?></td>
@@ -59,7 +60,7 @@ require "includes/header.php"
                                     echo "
                                           <tr>
                                               <td style='text-align:right' colspan='5'>Total</td>
-                                              <td style='text-align:right'>Rp. ".number_format($totall)."</td>
+                                              <td style='text-align:right'>Rp. ".number_format($total)."</td>
                                           </tr>
                                     ";
 

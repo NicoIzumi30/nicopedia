@@ -8,7 +8,7 @@ if (!$_SESSION['admin']) {
 ?>
 <body id="page-top">
 
-    <nav class="navbar navbar-expand shadow p-3 mb-0 bg-primary rounded static-top">
+    <nav class="navbar navbar-expand shadow p-3 mb-0 bgnav rounded static-top">
 
         <a class="navbar-brand mr-1 mb-2 font-weight-bold text-white" href="admin/index.php">Admin Izumi</a>
 
@@ -36,7 +36,7 @@ if (!$_SESSION['admin']) {
     <div id="wrapper">
 
         <!-- Sidebar -->
-        <ul class="sidebar navbar-nav bg-primary">
+        <ul class="sidebar navbar-nav sideb">
             <li class="nav-item active">
                 <a class="nav-link" href="index.php">
                     <i class="fas fa-fw fa-tachometer-alt"></i>
