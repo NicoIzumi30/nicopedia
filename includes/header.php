@@ -49,6 +49,9 @@ require "config/connect.php";
                         <li class="nav-item">
                             <a class="nav-link text-white" href="https://bit.ly/3rRcJIf"><i class="fas fa-phone"></i> Contac</a>
                         </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white" href="<?=BASE_URL;?>admin"><i class="fa-solid fa-circle-user"></i> Admin</a>
+                        </li>
                     </ul>
                 </div>
             </div>

@@ -20,7 +20,7 @@
 		}
 	}
  ?>
-<body style="background-image: url(../assets/img/bg.jpg);">
+<body style="background-image: url(../assets/img/slider2.jpg);">
    <div class="overlay"></div>
    <form action="" method="post" class="box">
        <div class="header">

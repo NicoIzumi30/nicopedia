@@ -49,13 +49,13 @@
                     <div class="col-lg-4">
                         <form action="?s=" class="mt-3">
                                 <div class="row">
-                                    <div class="col-md-10 sm-8 mt-3 justify-content-end">
+                                    <div class="col-10 md-5 mt-3 justify-content-end">
                                     <div class="form-group">
-                                        <input class="form-control" type="search" value="<?php if(isset($_GET['s'])) {echo $_GET['s'];} ?>" name="s" placeholder=" Masukkan Keywoard "   style="border-radius: 9999px;">
+                                        <input class="form-control hs" type="search" value="<?php if(isset($_GET['s'])) {echo $_GET['s'];} ?>" name="s" placeholder=" Masukkan Keywoard "   style="border-radius: 9999px;">
                                     </div>            
                                 </div>
                                     <div class="form-group"> 
-                                        <input type="submit" class="btn btn-primary mt-3" value="cari" style="border-radius:25%;"> 
+                                        <input type="submit" class="btn btn-primary mt-3 hs" value="cari" style="border-radius:25%;"> 
                                         </div>                
                                     </div>
                             </form>
@@ -64,7 +64,7 @@
             </div>
                     <div class="col-lg-12">
                     <div class="row">
-                        <div class="col-lg-12">     
+                        <div class="col-12">     
                         <div class="container">
                         <div id="carouselExampleIndicators" class="carousel slide my-4" data-ride="carousel">
                             <ol class="carousel-indicators">
@@ -88,12 +88,12 @@
                     </div>
                         </div>
                    
-                <div class="row">
+                <div class="row d-flex justify-content-center">
                     <?php 
                         if (mysqli_num_rows($result) > 0) {
                          do{
                      ?>
-                    <div class="col-lg-4 col-md-4 sm-6 mb-3 mt-3">
+                    <div class="col-lg-4 col-md-4 col-10 mb-3 mt-3">
                         <div class="card ho" style="border-radius: 20px;">
                             <!-- <a href="tampil.php?id=<?=$data['id_akun'];?>" style="padding: 5px; max-width: 150px; border-radius: 5px; "><img class="card-img-top" style="float:left;" src="<?=BASE_URL;?>assets/akun/<?= $data['gambar_akun'];?>"></a> -->
 
@@ -118,6 +118,7 @@
                 </div>
             </div>
             </div>
+            
 
         <!-- </div> -->
   <?php require "includes/footer.php"; ?> 
