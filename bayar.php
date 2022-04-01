@@ -25,12 +25,13 @@
               $xakun = "SELECT * FROM akun WHERE id_akun = '$id'";
               $Qakun = mysqli_query($conn, $xakun);
               $data = mysqli_fetch_assoc($Qakun);
-              $jml = $data['harga_akun'] * $qty + $rand;
-            
+              $getTotal = $data['harga_akun'] * $qty;
+              $getPpn = $getTotal / 99.2;
+              $jml = $getTotal + $getPpn;
 
 ?>
           <div class="row">
-            <div class="col-md-12">
+            <div class="col-md-12 mt-5">
                 <h2 class="text-white">Detail yang harus di bayar</h2>
                 <table class="table">
                   <thead>
@@ -46,15 +47,15 @@
                       <td class="text-white"><?=$data['nama_akun'];?></td>
                       <td class="text-white">Rp. <?=number_format($data['harga_akun']);?></td>
                       <td class="text-white"><?=$qty;?></td>
-                      <td class="text-white">Rp. <?=number_format($data['harga_akun'] * $qty);?></td>
+                      <td class="text-white">Rp. <?=number_format($jml);?> (Fee 0.8%)</td>
                   </tr>  
                   </tbody>
                 </table>
                 <h3 class="text-white">Total Yang Harus Di Bayar : Rp. <?=number_format($jml);?></h3>
          </div>
-         <div class="col-md-12 ">
+         <div class="col-md-5 mt-5">
              <p class="text-white">Informasi Pembayaran: </p>
-             <img style="height: 300px; width: 300px" src="<?=BASE_URL;?>assets/img/qrcode.png">
+             <img class="qrcode" src="<?=BASE_URL;?>assets/img/qrcode.png">
              <p class="text-white">1. Unduh QR Code di atas dengan cara tahan gambar lalu simpan. <br>
                 2. Buka OVO, Gojek, Dana, Link Aja, atau aplikasi mobile-banking yang Anda miliki. <br>
                 3. Pilih opsi bayar lalu unggah QR Code melalui menu di kanan atas <br>
@@ -64,6 +65,40 @@
             </p>
          </div>
       </div>
+<!-- <div class="row d-flex justify-content-center mt-5">
+    <div class="col-11 mt-5">
+        <div class="col-6">
+            <div class="detail-pembayaran">
+
+            </div>
+        </div>
+        <div class="col-5">
+            <div class="qrcodes">
+
+            </div>
+        </div>
+    </div>
+<!-- </div> -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ -->
+
+
 <?php 
     }
 }

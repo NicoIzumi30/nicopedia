@@ -88,12 +88,12 @@
                     </div>
                         </div>
                    
-                <div class="row d-flex justify-content-center">
+                <div class="row">
                     <?php 
                         if (mysqli_num_rows($result) > 0) {
                          do{
                      ?>
-                    <div class="col-lg-4 col-md-4 col-10 mb-3 mt-3">
+                    <div class="col-lg-4 col-md-4 col-10 mb-3 mt-3 midium">
                         <div class="card ho" style="border-radius: 20px;">
                             <!-- <a href="tampil.php?id=<?=$data['id_akun'];?>" style="padding: 5px; max-width: 150px; border-radius: 5px; "><img class="card-img-top" style="float:left;" src="<?=BASE_URL;?>assets/akun/<?= $data['gambar_akun'];?>"></a> -->
 
@@ -110,9 +110,7 @@
                     <?php 
                     }while ($data = mysqli_fetch_assoc($result));
                        }else{
-                                echo "<div class='notresult text-center'>";
-                                echo  "<h5 class='text-white'>Tidak ada akun ditampilkan</h5>";
-                                echo "</div>";
+                                echo  "<h3 class='text-white noresult'>Tidak ada akun ditampilkan</h3>";
                             }
                      ?>
                 </div>
