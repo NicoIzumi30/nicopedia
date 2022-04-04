@@ -27,7 +27,7 @@ require "config/connect.php";
     <nav class="navbar navbar-expand-lg fixed-top navbar-dark shadow-sm bg-custom">
             <div class="container">
                 <a class="navbar-brand" href="<?=BASE_URL;?>">
-                    <h2 class="text-white">Nicopedia</h2>
+                    <h2 class="text-white">Nicopedia<img src="<?=BASE_URL;?>assets/img/nekokardus.png" class="mb-1" type="image/x-icon" width="35px"></h2>
         
                 </a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
