@@ -10,7 +10,7 @@ if (!$_SESSION['admin']) {
 
     <nav class="navbar navbar-expand shadow p-3 mb-0 bgnav rounded static-top">
 
-        <a class="navbar-brand mr-1 mb-2 font-weight-bold text-white" href="admin/index.php">Admin Izumi</a>
+        <a class="navbar-brand mr-1 mb-2 font-weight-bold text-white" href="<?=BASE_URL;?>">Nicopedia</a>
 
         <button class="btn btn-link btn-sm text-white order-1 order-sm-0 mb-0" id="sidebarToggle" href="#">
             <i class="fas fa-bars"></i>

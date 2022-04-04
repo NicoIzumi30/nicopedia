@@ -102,7 +102,6 @@ require "includes/header.php"
             </div>
         </div>
     </div>
-
     <script src="<?=BASE_URL;?>assets/vendor/jquery/jquery.min.js"></script>
     <script src="<?=BASE_URL;?>assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
     <script src="<?=BASE_URL;?>assets/vendor/jquery-easing/jquery.easing.min.js"></script>

@@ -25,7 +25,7 @@
    <form action="" method="post" class="box">
        <div class="header">
            <h4> Login To Your Account</h4>
-           <p>WELCOME TO IZUMI GAME SHOP<br>
+           <p>WELCOME TO NICOPEDIA<br>
               SPECIALIST AKUN GAME NO.1 <br>
               MURAH,AMAN DAN TERPERCAYA <br>
               </p>
