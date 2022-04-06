@@ -99,11 +99,11 @@
 
                             <div class="card-body">
                             <h5 class="card-title">
-                                  <a style="color: #cf7609;" href="tampil.php?id=<?=$data['id_akun'];?>"><?=$data['nama_akun'];?></a>
+                                  <a style="color: #cf7609;" href="view?id=<?=$data['id_akun'];?>"><?=$data['nama_akun'];?></a>
                             </h5>
                                 <p class=" shopeee">Rp. <?=number_format($data['harga_akun']);?></p>
                                 <small class="text-warning">&#9733; &#9733; &#9733; &#9733; &#9734;</small>
-                                <p class="text-right"><a href="tampil.php?id=<?=$data['id_akun'];?>">Detail..</a></p>
+                                <p class="text-right"><a href="view?id=<?=$data['id_akun'];?>">Detail..</a></p>
                             </div>
                         </div>
                     </div>

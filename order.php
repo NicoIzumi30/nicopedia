@@ -7,7 +7,7 @@
 
 ?>
 <div class="col-md-12">
-<form action="bayar.php" method="post">
+<form action="pay-orders" method="post">
          <div class="row d-flex justify-content-center mt-5">
             <div class="col-md-4">
                 <h2 class="text-white text-center">Isi Detail Pembayaran</h2><br>

@@ -53,7 +53,7 @@
 
 
     <!-- new -->
-    <form action="beli.php" method="post">
+    <form action="order" method="post">
     <nav aria-label="breadcrumb">
             <ol class="breadcrumb pt-5" style="background-color: #32323e;">
                 <li class="breadcrumb-item"><a href="<?=BASE_URL;?>">Home</a></li>
