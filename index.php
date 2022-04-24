@@ -13,7 +13,7 @@
          $result = mysqli_query($conn, $sql);
          $data = mysqli_fetch_assoc($result);
      }else {
-        $sql = "SELECT * FROM akun ORDER BY id_akun DESC";
+        $sql = "SELECT * FROM akun WHERE stok_akun > 0 ORDER BY id_akun DESC";
          $result = mysqli_query($conn, $sql);
          $data = mysqli_fetch_assoc($result);
     }
@@ -88,7 +88,7 @@
                     </div>
                         </div>
                    
-                <div class="row">
+                <div class="row" id="all-item">
                     <?php 
                         if (mysqli_num_rows($result) > 0) {
                          do{

@@ -25,6 +25,8 @@
               $xakun = "SELECT * FROM akun WHERE id_akun = '$id'";
               $Qakun = mysqli_query($conn, $xakun);
               $data = mysqli_fetch_assoc($Qakun);
+              $newStok = $data['stok_akun']-1;
+              $upstok = mysqli_query($conn, "UPDATE akun  SET stok_akun = '$newStok' WHERE id_akun = '$id'");
               $getTotal = $data['harga_akun'] * $qty;
               $getPpn = $getTotal / 99.2;
               $jml = $getTotal + $getPpn;
